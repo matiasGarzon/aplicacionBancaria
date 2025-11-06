@@ -6,7 +6,7 @@ public class Administrador {
     private List<MiembroFamilia> miembros;
     private float saldoFamiliar;
     private float limiteRetiroFamiliar;
-
+    //PRUEBA
     // Constructor
     public Administrador(String nombreFamilia, float saldoFamiliar, float limiteRetiroFamiliar) {
         this.nombreFamilia = nombreFamilia;
@@ -42,5 +42,10 @@ public class Administrador {
 
     public float getLimiteRetiroFamiliar() {
         return limiteRetiroFamiliar;
+    }
+    public int prueba(){
+        
+        return 0;
+        
     }
 }
